@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+    
+header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+    
+h1, h2 {
+    margin-bottom: 0.5em;
+}
+    
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+    
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+    
+form {
+    margin-top: 20px;
+}
+    
+form label {
+    display: block;
+    margin: 5px 0;
+}
+    
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+    
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+    
+button:hover {
+    background: #45a049;
+}
+    
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #f4f4f4;
+    margin-top: 20px;
+}
+
+.image-carre {
+    width: 200px; /* Définit la largeur de l'image à 200 pixels */
+    height: auto; /* Ajuste la hauteur proportionnellement à la largeur */
+}
+
+.image-ronde {
+    width: 150px; /* Définir la largeur de l'image */
+    height: 150px; /* Définir la hauteur de l'image */
+    border-radius: 50%; /* Appliquer un rayon de bordure de 50% pour rendre l'image ronde */
+}
+    
+    
